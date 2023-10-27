@@ -2,9 +2,10 @@
 
 import 'dotenv/config'
 import http from 'http'
-import { listenOptions } from './env.ts'
 import { createServer } from './express/index.ts'
 import { AddressInfo } from 'net'
+
+import { listenOptions } from './env.ts'
 
 const startServer = async () => {
   const app = createServer()
