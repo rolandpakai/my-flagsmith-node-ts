@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "importHelpers": true,
@@ -11,6 +11,7 @@
     "declaration": true,
 
     "alwaysStrict": true,
+    "allowImportingTsExtensions": true,
     "forceConsistentCasingInFileNames": true,
     "removeComments": true,
     "noImplicitAny": true,
@@ -27,6 +28,7 @@
     "composite": true,
     "skipLibCheck": true,
     "noEmitHelpers": false,
+    "noEmit": true,
 
     "outDir": "dist",
     "rootDir": "src",
