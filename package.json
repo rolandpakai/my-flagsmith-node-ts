@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@types/helmet": "^4.0.0",
+    "body-parser": "^1.20.2",
     "compress": "^0.99.0",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
